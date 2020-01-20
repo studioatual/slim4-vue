@@ -1,0 +1,20 @@
+{
+  "name": "studioatual/slim4",
+  "description": "Slim Framework 4 with Twig, Eloquent, Phinx and Swiftmailer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Studio Atual",
+      "email": "contato@studioatual.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "^4.4",
+    "slim/psr7": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "StudioAtual\\": "app"
+    }
+  }
+}
