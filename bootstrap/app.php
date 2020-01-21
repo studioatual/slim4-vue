@@ -10,12 +10,15 @@ $dotenv->load();
 
 $containerBuilder = new ContainerBuilder();
 require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/database.php';
 require_once __DIR__ . '/render.php';
 require_once __DIR__ . '/controllers.php';
 
 AppFactory::setContainer($containerBuilder->build());
 $app = AppFactory::create();
 $container = $app->getContainer();
+$container->get('db')->setAsGlobal();
+$container->get('db')->bootEloquent();
 
 require_once __DIR__ . '/middleware.php';
 
