@@ -21,5 +21,7 @@ $container->get('db')->setAsGlobal();
 $container->get('db')->bootEloquent();
 
 require_once __DIR__ . '/middleware.php';
+require_once __DIR__ . '/errors.php';
 
+require_once __DIR__ . '/../routes/api.php';
 require_once __DIR__ . '/../routes/web.php';
