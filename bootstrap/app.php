@@ -14,6 +14,7 @@ require_once __DIR__ . '/database.php';
 require_once __DIR__ . '/render.php';
 require_once __DIR__ . '/mail.php';
 require_once __DIR__ . '/logs.php';
+require_once __DIR__ . '/validation.php';
 require_once __DIR__ . '/controllers.php';
 
 AppFactory::setContainer($containerBuilder->build());
