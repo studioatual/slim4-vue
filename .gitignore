@@ -1,5 +1,6 @@
 .db
 vendor
+storage
 
 composer.lock
 .env

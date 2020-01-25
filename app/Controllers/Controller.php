@@ -23,6 +23,11 @@ class Controller
             ->withHeader('Content-Type', 'application/json');
     }
 
+    public function log(string $title, array $data = [], string $type = 'info')
+    {
+        $this->logger->{$type}($title, $data);
+    }
+
     public function __get($property)
     {
         if ($this->container->get($property)) {
