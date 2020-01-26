@@ -20,7 +20,12 @@
     "fzaninotto/faker": "^1.9",
     "swiftmailer/swiftmailer": "^6.2",
     "monolog/monolog": "^2.0",
-    "respect/validation": "^1.1"
+    "respect/validation": "^1.1",
+    "league/flysystem": "^1.0",
+    "league/flysystem-aws-s3-v3": "^1.0",
+    "superbalist/flysystem-google-storage": "^7.2",
+    "league/flysystem-azure-blob-storage": "^0.1.6",
+    "spatie/flysystem-dropbox": "^1.2"
   },
   "autoload": {
     "psr-4": {
