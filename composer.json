@@ -25,7 +25,8 @@
     "league/flysystem-aws-s3-v3": "^1.0",
     "superbalist/flysystem-google-storage": "^7.2",
     "league/flysystem-azure-blob-storage": "^0.1.6",
-    "spatie/flysystem-dropbox": "^1.2"
+    "spatie/flysystem-dropbox": "^1.2",
+    "slim/csrf": "^1.0"
   },
   "autoload": {
     "psr-4": {
